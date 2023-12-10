@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Webpage</title>
+</head>
+<body>
+
+<div class="dropdown">
+  <button onclick="toggleDropdown()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#login">Login</a>
+    <a href="#profile">User Profile</a>
+  </div>
+</div>
+
+<section id="about">
+  <h2>About Section</h2>
+  <!-- Your about content goes here -->
+</section>
+
+<section id="contact">
+  <h2>Contact Section</h2>
+  <!-- Your contact form goes here -->
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</section>
+
+<section id="login">
+  <h2>Login Section</h2>
+  <!-- Your login form goes here -->
+  <form action="#" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <input type="submit" value="Login">
+  </form>
+</section>
+
+<section id="profile">
+  <h2>User Profile Section</h2>
+  <!-- Your user profile card goes here -->
+  <div class="user-profile">
+    <img src="img/WhatsApp Image 2023-12-06 at 10.55.14.jpeg" alt="User Avatar">
+    <h3>Inès IKIREZI</h3>
+    <p>Email: ines@gmail.com</p>
+    <p> Backed Developer</p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

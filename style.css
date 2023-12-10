@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    z-index: 1000;
+  }
+  
+  .dropbtn {
+    background-color:dark grey;
+    color:black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:grey;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:grey;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #010000;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color:dark rgb(182, 172, 172);
+    color:black;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:grey;
+  }
+  
+  .user-profile {
+    max-width: 300px;
+    margin: auto;
+    background-color: grey;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
